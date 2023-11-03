@@ -5,6 +5,10 @@ export const ListadoPacientes = ({ pacientes, eliminarPaciente }) => {
   return (    
     <div className="w-full lg:w-3/4 p-4">
       <h2 className="text-2xl font-bold mb-4">Listado de Pacientes</h2>
+      <p> Cant. de pacientes: {''}
+        <span className="text-indigo-600 font-bold">{pacientes.length}</span>
+      </p>
+
       <motion.ul
         className="bg-white rounded-lg shadow-md p-4"
         initial={{ opacity: 0, y: 20 }} // Estado inicial

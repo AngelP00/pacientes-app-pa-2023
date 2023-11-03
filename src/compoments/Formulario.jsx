@@ -91,14 +91,14 @@ export const Formulario = ({setPacientes}) => {
             />
         </div>
         <div>
-          <label className="block text-gray-700 uppercase font-bold">Fecha:</label>
+          <label className="block text-gray-700 uppercase font-bold">Fecha y Hora:</label>
           <input
-            className=" border-2 w-full p-2 mt-2 placeholder-gray-400"
-            type="date"
-            placeholder="Fecha"
+            className="border-2 w-full p-2 mt-2 placeholder-gray-400"
+            type="datetime-local"
+            placeholder="Fecha y Hora"
             value={fecha}
             onChange={(e) => setFecha(e.target.value)}
-            />
+          />
         </div>
         <div>
           <label className="block text-gray-700 uppercase font-bold">Sintomas:</label>
