@@ -15,3 +15,5 @@ Currently, two official plugins are available:
     React developer tools in:
         https://react.dev/learn/react-developer-tools
         https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi
+
+1. npm run dev
